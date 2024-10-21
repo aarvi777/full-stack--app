@@ -1,0 +1,25 @@
+.service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-card {
+    width: 18rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-card img {
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .product-card .card-body {
+    text-align: center;
+  }
+  

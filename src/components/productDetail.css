@@ -1,0 +1,37 @@
+/* src/components/productDetail.css */
+
+.product-detail {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .product-detail h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .product-detail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .product-detail p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  .product-detail .price {
+    font-size: 20px;
+    color: #d9534f; /* Bootstrap danger color */
+  }
+  
+  .product-detail button {
+    margin-top: 20px;
+  }
+  
